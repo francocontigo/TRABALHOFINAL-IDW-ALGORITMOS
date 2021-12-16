@@ -7,7 +7,7 @@ Trabalho apresentado ao Curso Superior de Tecnologia em Sistemas de Informação
 ## Authors
 
 - [@francocontigo](https://www.github.com/francocontigo)
-- [@falta do pablo KEKW](https://www.github.com/)
+- [@Ziigg](https://github.com/Ziigg)
 
 
 ## License
