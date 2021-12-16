@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sobre</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="menu-nav">
+                                
+                <a class="logo" href="index.html"><img  class="content__logo" src="images/263.svg" alt="Logo"/></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                
+            <div class="righSide">
+                <div class="btns DN">
+                    <ion-icon name="sunny-outline"></ion-icon>
+                    <ion-icon name="moon-outline"></ion-icon>
+                </div>
+            </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="serviços.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main">
+            <p class="copyrightText">© Fintech - 2021</p>
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </section>
+        <main class="content">
+            <article>
+                <h1>UMA NOVA ABORDAGEM PARA O SEU NEGÓCIO!</h1>
+                <br>
+                <br>
+                <p>Nós da Fintech entramos no mercado com tudo! Trazemos soluções tecnológicas para as áreas: 
+                Contábil, Fiscal, Tributária, Recursos Humanos e Assessoria Administrativa. Constituída por 
+                profissionais com experiência e qualificação, a Fintech e seus profissionais trabalham alinhados
+                 com o compromisso com a segurança da informação, confiabilidade e agilidade.</p>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                <h2>Nossa Missão</h2>
+                <br>
+                <br>
+                <p>Assessorar os empreendedores, com criatividade e agilidade, na organização burocrática dos seus 
+                negócios.
+                <br>
+                <br>
+                <h2>Nossa Visão</h2>
+                <br>
+                <br>
+                Estar entre as dez empresas contábeis mais reconhecidas do Brasil, pela qualidade da entrega nos
+                 serviços contratados.
+                <br>
+                <br>
+                <h2>Nossos Valores</h2>
+                <br>
+                <br>
+                Desenvolver com afinco nossas atribuições, considerando a continuidade dos nossos negócios bem 
+                como dos nossos clientes.</p>
+            </article>
+            
+        </main>
+
+        <script src="mobile-navbar.js"></script>
+
+        <footer>
+            Rodapé
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            let DN = document.querySelector('.DN')
+            let Toggle = document.querySelector('.Toggle')
+            let body = document.querySelector('body')
+            let navigation = document.querySelector('.navigation')
+
+            DN.onclick = function(){
+                body.classList.toggle('dark')
+                DN.classList.toggle('active')
+            }
+
+            Toggle.onclick = function(){
+                Toggle.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </body>
+
+</html>
