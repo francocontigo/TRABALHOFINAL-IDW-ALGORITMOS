@@ -7,8 +7,6 @@ Trabalho apresentado ao Curso Superior de Tecnologia em Sistemas de Informação
 ## Autores
 
 - [@francocontigo](https://www.github.com/francocontigo)
-- [@Ziigg](https://github.com/Ziigg)
-
 
 ## Licença
 
